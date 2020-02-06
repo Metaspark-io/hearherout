@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "gatsby"
 import { Row, Col, Container, Button } from "react-bootstrap"
 import Card from "react-bootstrap/Card"
 import Form from "react-bootstrap/Form"
@@ -12,11 +13,11 @@ const IndexPage = () => (
   <Layout pageInfo={{ pageName: "Home" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
     <section
-      className="py-5"
+      className="hero-section  py-5"
     >
-      <Container>
-        <Row>
-          <Col xs="12" md="6">
+      <Container className="h-100">
+        <Row className="d-flex align-items-center h-100">
+          <Col xs="12" sm="8" md="6">
             <h1>Hear Her Out</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -52,10 +53,10 @@ const IndexPage = () => (
           <Col xs="12" lg="8">
             <img className="mx-auto d-block img-fluid py-3 py-lg-0" src="http://placehold.jp/24/4e4d49/c8dfd1/800x500.png"/>
           </Col>
-          <Col xs="12" lg="4" className="text-center text-lg-left">
+          <Col xs="12" lg="4" className="text-center text-lg-left text-center d-lg-flex flex-column justify-content-center align-items-center">
             <h2 className="d-none d-lg-flex">{mapTitle}</h2>
             <p className="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
-            <Button variant="secondary">Tour Dates & Events</Button>
+            <Link to="/bus-tour"><Button variant="secondary">Tour Dates & Events</Button></Link>
           </Col>
         </Row>
       </Container>

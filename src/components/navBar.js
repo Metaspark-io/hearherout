@@ -24,12 +24,12 @@ const CustomNavbar = ({ pageInfo }) => {
                   Home
                 </Nav.Link>
               </Link>
-              <Link to="/page-2" className="link-no-style">
+              <Link to="/" className="link-no-style">
                 <Nav.Link as="span" eventKey="page-2">
                   About
                 </Nav.Link>
               </Link>
-              <Link to="/page-2" className="link-no-style">
+              <Link to="/bus-tour" className="link-no-style">
                 <Nav.Link as="span" eventKey="page-2">
                   Bus Tour
                 </Nav.Link>

@@ -60,3 +60,8 @@
   text-transform: uppercase;
   font-weight: 500;
 }
+
+.hero-section {
+  height: calc(100vh - 129px);
+  background: $light;
+}
