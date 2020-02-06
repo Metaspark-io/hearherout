@@ -9,6 +9,8 @@ import Layout from "../components/layout"
 import {StoryCard} from "../components/StoryCard"
 import SEO from "../components/seo"
 
+import Logo from '../images/hho-orange.png'
+
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "Home" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
@@ -18,7 +20,7 @@ const IndexPage = () => (
       <Container className="h-100">
         <Row className="d-flex align-items-center h-100">
           <Col xs="12" sm="8" md="6">
-            <h1>Hear Her Out</h1>
+            <img className="img-fluid hho-logo mb-4" src={Logo} alt="Hear Her Out: Share your story. Inspire the future"/>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
             </p>

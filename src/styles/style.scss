@@ -64,4 +64,34 @@
 .hero-section {
   height: calc(100vh - 129px);
   background: $light;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(to right, rgba($light, 1), rgba($light, .05)),
+    url('../images/desert-hike.jpg');
+  background-repeat:
+    no-repeat,
+    no-repeat;
+  background-position:
+    center,
+    center bottom;
+
+  .hho-logo{
+    max-height: 30vh;
+    max-width: 90%;
+  }
+}
+
+footer{
+  color: white;
+  a {
+    color: darken($light, 25%);
+    &:hover{
+      color: darken($light, 50%);
+    }
+  }
+  .footer-logos {
+    max-width: 8em;
+  }
 }
