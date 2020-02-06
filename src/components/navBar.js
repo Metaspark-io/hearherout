@@ -24,7 +24,7 @@ const CustomNavbar = ({ pageInfo }) => {
                   Home
                 </Nav.Link>
               </Link>
-              <Link to="/" className="link-no-style">
+              <Link to="/about" className="link-no-style">
                 <Nav.Link as="span" eventKey="page-2">
                   About
                 </Nav.Link>

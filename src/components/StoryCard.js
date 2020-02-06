@@ -6,12 +6,14 @@ import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 
+import Story from '../images/story-image.png';
+
 export const StoryCard = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
     <Col xs="10" md="4" xl="3">
       <Card className="mb-4">
-        <Card.Img variant="top" src="http://placehold.jp/24/D25C28/fff/150x100.png" />
+        <Card.Img variant="top" src={Story} />
         <Card.Body>
           <div className="d-flex justify-content-between align-items-center text-muted">
             <Card.Subtitle>Jane Doe</Card.Subtitle>

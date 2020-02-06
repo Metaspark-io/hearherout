@@ -36,11 +36,9 @@ const IndexPage = () => (
           <Col xs="12">
             <h2 className="text-center">Lorem Ipsum</h2>
             <Row className="force-h-scroll">
-              <StoryCard/>
-              <StoryCard/>
-              <StoryCard/>
-              <StoryCard/>
-              <StoryCard/>
+              {[...Array(5)].map((e, i) => (
+                <StoryCard/>
+              ))}
             </Row>
           </Col>
         </Row>

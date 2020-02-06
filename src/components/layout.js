@@ -20,7 +20,7 @@ const Layout = ({ children, pageInfo }) => (
       <main>{children}</main>
     </Container>
     <footer className="bg-dark py-5" style={{overflowX: 'hidden'}}>
-      <Container className="px-0">
+      <Container>
         <Row className="mb-4">
           <Col>
             <img className="img-fluid footer-logos mr-5" src={REI} />
@@ -45,8 +45,8 @@ const Layout = ({ children, pageInfo }) => (
         <Row>
           <Col>
             <ul className="list-unstyled text-left text-md-center d-flex flex-column flex-md-row justify-content-around mb-0">
-              <li><a href="/">Terms of Use</a></li>
-              <li><a href="/">Privacy Policy</a></li>
+              <li><a href="/terms-of-use">Terms of Use</a></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
               <li><a href="/">CA Transparency Act</a></li>
               <li><a href="/">REI Accessibility Statement</a></li>
             </ul>
