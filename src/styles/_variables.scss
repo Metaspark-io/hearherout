@@ -1,0 +1,29 @@
+$primary: #D25C28;
+$secondary: #000;
+$light: #F4F2ED;
+$text-muted: #6c645d;
+$jaguar: #2a2a2a;
+$merlin: #4d4c48;
+
+$body-color: #3b3b37;
+
+$font-family-sans-serif: 'Graphik', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-family-serif: 'Stuart', 'Sentinel', 'Georgia', serif;
+
+$headings-font-family: $font-family-serif;
+$font-family-base: $font-family-sans-serif;
+
+$container-max-widths: (
+  sm: 736px,
+  md: 960px,
+  lg: 1200px,
+  xl: 1600px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 992px,
+  lg: 1232px,
+  xl: 1632px
+)
